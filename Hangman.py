@@ -15,7 +15,7 @@ def welcome():
                      |___/"""
     MAX_TRIES = 6
     print(HANGMAN_ASCII_ART, '\n', MAX_TRIES)
-    file_path = input("Enter words' file path: ")
+    file_path = 'words.txt' # input("Enter words' file path: ")
     index = input("Enter index: ")
     print("Let's Play!")
 
